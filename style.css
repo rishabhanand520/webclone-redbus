@@ -1,1 +1,85 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+.header {
+    background-color: #d84e55;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Search Section */
+.search-section {
+    background: url('bus-bg.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input, .search-box button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-box input {
+    flex: 1;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.search-box button {
+    background-color: #d84e55;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
 
